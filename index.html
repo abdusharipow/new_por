@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Povlik</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif}
+    body{background:#0f172a;color:#fff}
+    header{padding:20px;display:flex;justify-content:space-between;align-items:center}
+    header h1{color:#38bdf8}
+    nav a{margin-left:15px;color:#fff;text-decoration:none;font-weight:500}
+    nav a:hover{color:#38bdf8}
+
+    .hero{text-align:center;padding:80px 20px}
+    .hero h2{font-size:36px;margin-bottom:10px}
+    .hero p{opacity:.8;margin-bottom:25px}
+
+    .socials a{margin:0 10px;font-size:24px;color:#38bdf8;transition:.3s}
+    .socials a:hover{color:#fff}
+
+    section{padding:60px 20px;max-width:1000px;margin:auto}
+    section h3{text-align:center;margin-bottom:20px;color:#38bdf8}
+
+    .about,.contact{background:#020617;border-radius:16px;padding:30px}
+
+    .contact form{display:flex;flex-direction:column;gap:15px}
+    .contact input,.contact textarea{padding:12px;border:none;border-radius:8px}
+    .contact button{padding:12px;border:none;border-radius:8px;background:#38bdf8;font-weight:bold;cursor:pointer}
+
+    footer{text-align:center;padding:20px;opacity:.6}
+
+    @media(max-width:768px){
+      header{flex-direction:column;gap:10px}
+      .hero h2{font-size:28px}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Polvannazir</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#contact">Bog‘lanish</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Salom, men Davlatnazarov Polvannazir 👋</h2>
+  <p> | Portfolio Sayt</p>
+  <div class="socials">
+    <a href="https://www.instagram.com/darkeeuz/"><i class="fab fa-instagram"></i></a>
+    <a href="https://t.me/DARKEEUZ"><i class="fab fa-telegram"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+  </div>
+</section>
+
+<section id="about">
+  <h3>Men xaqimda</h3>
+  <div class="about">
+    <p>Men Davlatnazarov Polvannazir. Instagram va Telegram platformalarida faolman. Shaxsiy rivojlanish va yangi imkoniyatlarga qiziqaman. Hozirda Xorazm viloyati, Xiva shahrida yashayman.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h3>Bog‘lanish</h3>
+  <div class="contact">
+    <p><strong>📞 Telefon:</strong> +998 94 937 96 76</p>
+    <p><strong>📧 Email:</strong>@palvanazirdavlatnazarov62@gmail.com</p>
+    <p><strong>💬 Telegram:</strong> @Darkeeuz</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Polvannazir Portfolio</p>
+</footer>
+
+</body>
+</html>
